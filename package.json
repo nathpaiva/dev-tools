@@ -1,0 +1,14 @@
+{
+  "name": "@nathpaiva/shared-configs",
+  "private": "true",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "publish-eslint-config": "yarn workspace @nathpaiva/eslint-config publish",
+    "publish-prettier-config": "yarn workspace @nathpaiva/prettier-config publish",
+    "publish-eslint-config-react": "yarn workspace @nathpaiva/eslint-config-react publish"
+  }
+}

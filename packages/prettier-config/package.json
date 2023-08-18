@@ -1,0 +1,17 @@
+{
+  "name": "@nathpaiva/prettier-config",
+  "version": "1.0.2",
+  "description": "prettier config",
+  "main": ".prettierrc.cjs",
+  "scripts": {
+    "publish-manual": "npm publish"
+  },
+  "author": "Nath Paiva",
+  "license": "ISC",
+  "peerDependencies": {
+    "prettier": "^3.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
