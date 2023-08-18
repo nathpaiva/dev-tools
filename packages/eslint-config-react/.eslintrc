@@ -1,5 +1,9 @@
 {
-  "parser": "@typescript-eslint/parser",
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
   "extends": [
     "airbnb",
     "airbnb-typescript",
@@ -8,6 +12,7 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
+  "parser": "@typescript-eslint/parser",
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
     "react/react-in-jsx-scope": 0,
@@ -22,9 +27,5 @@
     "@typescript-eslint/no-explicit-any": "warn",
     "react/require-default-props": 0,
     "import/no-extraneous-dependencies": 0
-  },
-  "env": {
-    "browser": true,
-    "es2021": true
   }
 }
