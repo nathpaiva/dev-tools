@@ -1,6 +1,6 @@
 {
   "name": "@nathpaiva/eslint-config-react",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "react config",
   "main": ".eslintrc.cjs",
   "scripts": {
