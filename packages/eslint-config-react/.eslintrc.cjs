@@ -33,6 +33,7 @@ module.exports = {
     'react/function-component-definition': 0,
     'react/jsx-props-no-spreading': 'warn',
     'react/require-default-props': 0,
+    'react/no-unescaped-entities': 0,
 
     '@typescript-eslint/semi': 0,
     '@typescript-eslint/no-explicit-any': 'warn',
@@ -42,6 +43,9 @@ module.exports = {
     '@typescript-eslint/no-unsafe-return': 'warn',
     '@typescript-eslint/no-unsafe-assignment': 0,
     '@typescript-eslint/no-floating-promises': 0,
+    '@typescript-eslint/no-unsafe-member-access': 0,
+    '@typescript-eslint/no-unsafe-call': 0,
+    '@typescript-eslint/no-unsafe-return': 0,
 
     'react-hooks/exhaustive-deps': 'warn',
 
